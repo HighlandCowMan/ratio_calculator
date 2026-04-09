@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    font-family: "Aptos";
+    font-size: 36px;
+    margin: 0px;
 }
 
 @font-face {
@@ -8,17 +11,44 @@
 }
 
 h1 {
-    font-family: "Aptos";
     font-size: 64px;
-    color: #000000;
     text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+input {
+    border: 1px solid #868686;
+    font-size: 36px;
+} .petrol {
+    width: 5em;
+} .ratio {
+    width: 3em;
+}
+
+button {
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    color: #000000;
+}
+
+td {
+    padding: 10px;
 }
 
 .mainDiv {
     margin: 50px auto 50px auto;
     border: 1px solid #868686;
+    background-color: #f7f7f7;
     border-radius: 10px;
-    background-color: #ffebff;
     padding: 50px;
     width: 90%;
+}
+
+.output {
+    font-size: 48px;
 }
