@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grandad's Ratio Test</title>
         <link rel="stylesheet" href="stylesheet.css">
-        <script async src="scripts.js"></script>
+        <script async src="script.js"></script>
     </head>
+
     <body>
+        
         <div class="mainDiv">
-            <h1>Grandad's Ratio Calculator</h1>
+            <h1>Lachlan's Ratio Calculator</h1>
+            <h3>(for use with Grandad)</h3>
         </div>
+
         <div class="mainDiv">
             <h2>Enter numbers here:</h2>
             <span>Petrol: </span> <input class="petrol" id="petrolInput"> 
-            &emsp;&emsp;
+            &emsp;&emsp;&emsp;
             <span>Ratio: </span> <input class="ratio" id="ratioInput">
             <br><br>
             <button onclick="calculateRatio()">Calculate</button>
         </div>
+
         <div class="mainDiv">
             <table>
                 <tr>
-                    <td><h2 style="margin: 0px;">Final answer:</h2></td>
+                    <td class="outputTable"><h2 style="margin: 0px;">Answer:</h2></td>
                     <td><p id="output" class="output"></p></td>
                 </tr>
             </table>
         </div>
+
     </body>
 </html>
