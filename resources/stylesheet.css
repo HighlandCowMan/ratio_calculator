@@ -1,0 +1,79 @@
+:root {
+    --outlineColour: #cecece;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Aptos";
+    font-size: 16px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Aptos";
+    src: url("Aptos.ttf");
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #161616;
+    text-align: center;
+}
+
+input {
+    border: 1px solid var(--outlineColour);
+    font-size: 16px;
+} .petrol {
+    width: 4em;
+} .ratio {
+    width: 3.8em;
+}
+
+button {
+    background-color: #f0f0f0;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid var(--outlineColour);
+    border-radius: 5px;
+    color: #000000;
+} button:active {
+    background-color: #e4e4e4;
+}
+
+td {
+    padding: 5px;
+}
+
+a {
+    font: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.mainDiv {
+    margin: 20px auto 20px auto;
+    border: 1px solid var(--outlineColour);
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+    width: 90%;
+}
+
+.outputTable {
+    width: 20%;
+}
+
+.output {
+    font-size: 18px;
+}
